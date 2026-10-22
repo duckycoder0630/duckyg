@@ -173,7 +173,7 @@
       function hasJSExceptionHandler() { return (g_pJSExceptionHandler != undefined) && (typeof g_pJSExceptionHandler == "function"); }
       function doJSExceptionHandler(j) { if (typeof g_pJSExceptionHandler == "function") g_pJSExceptionHandler(JSON.parse(j)); }
       function manifestFiles() {
-        return ["runner.data","runner.js","runner.wasm","audio-worklet.js","game.unx","mus.dat","snd.dat","resources/eb.mp4"].join(";");
+        return ["http://cdn.jsdelivr.net/gh/NotRexed/Unblocked-Games@main/diceamillion/runner.data","http://cdn.jsdelivr.net/gh/NotRexed/Unblocked-Games@main/diceamillion/runner.js","http://cdn.jsdelivr.net/gh/NotRexed/Unblocked-Games@main/diceamillion/runner.wasm","http://cdn.jsdelivr.net/gh/NotRexed/Unblocked-Games@main/diceamillion/audio-worklet.js","http://cdn.jsdelivr.net/gh/NotRexed/Unblocked-Games@main/diceamillion/game.unx","http://cdn.jsdelivr.net/gh/NotRexed/Unblocked-Games@main/diceamillion/mus.dat","http://cdn.jsdelivr.net/gh/NotRexed/Unblocked-Games@main/diceamillion/snd.dat","http://cdn.jsdelivr.net/gh/NotRexed/Unblocked-Games@main/diceamillion/resources/eb.mp4"].join(";");
       }
       function manifestFilesMD5() {
         return ["48b661db86717d6a17ca2360b5f5fe01","9ea38b2c465024d351bcd10d0021e2de","e33507c4aefd19d28c5da8f149fcfbb2","e8f1e8db8cf996f8715a6f2164c2e44e","804d2a4f6648703b68f2ec1077b8f0f3","48d4f0d2c6d41ff77166028cf5cd0447","0e648dc17529bd2dcd011b106c3af2e4","df927c8b5ff0d54d9460330091b5b0ba"];
@@ -219,6 +219,6 @@
         return ptr;
       };
     </script>
-    <script async type="text/javascript" src="runner.js"></script>
+    <script async type="text/javascript" src="http://cdn.jsdelivr.net/gh/NotRexed/Unblocked-Games@main/diceamillion/runner.js"></script>
   </body>
 </html>
